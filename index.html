@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Favorite Classic Horror Movie</h1>
+        <p id="description" class="description text-center">Share what you think with us!</p>
+  </header>
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required fdprocessedid="hk9ive">
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required fdprocessedid="4ttu2h">
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="numebr">Age<span class="clue">(optional)</span></label>
+          <input type="number" name="age" id="number"  min="10" max="99" class="form-control" placeholder="Age" fdprocessedod="iyjswb">
+      </div>
+      <div class="form-group">
+          <p>Which option best describes your favorite movie?</p>
+          <select id="dropdown" name="role" class="form-control" required fdprocessedid="ocub1">
+            <option disabled selected value>Select current occupation</option>
+            <option value="student">Student</option>
+            <option value="job"> Full Time Job</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="preferno">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+      </div>
+      <div class="form-group">
+          <p>Would you recommend this movie to a friend?</p>
+        <label>
+          <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked>
+          Definitely
+        </label>
+        <label>
+          <input name="user-recommend" value="maybe" type="radio" class="input-radio">
+            Maybe
+        </label>
+        <label>
+          <input name="user-recommend" value="not-sure" type="radio" class="input-radio">
+              Not sure 
+        </label>
+      </div>
+      <div class="form-group">
+        <p>What is your favorite movie?</p>
+        <select id="most-like" name="mostlike" class="form-control" required fdprocessedid="ep50q">
+          <option disabled selected value>Select an option</option>
+          <option value="Amityville">The Amityville Horror(1979)</option>
+          <option value="shining">The Shining(1980)</option>
+          <option value="halloween">Halloween(1978)</option>
+          <option value="elm">A Nightmare on Elm Street(1984)</options>
+          <option value="haunting">The Haunting(1963)</option>
+          <option value="frankenstein">Frankenstein(1931)</option>
+          <option value="wolf">The Wolf man(1941)</option>
+          <option value="innocents">The Innocents(1961)</option>
+          <option value="exorcist">The Exorcist(1973)</option>
+          <option value="chainsaw">Texas Chain Saw Massacre(1974)</option>
+          <option value="poltergeist">Poltergeist(1982)</option>
+          <option value="alien">Alien(1079)</option>
+          <option value="changeling">The Changeling(1980)</option>
+          <option value="slumber">The Slumber Party Massacre(1982)</option>
+          <option value="sugar">Sugar Hill(1972)</option>
+          <option value="Hourwolf">Hour of the Wolf</options>
+          <option value="youngfrank">Young Frankenstein(1974)</option>
+          <option value="friday">Friday the 13th(1980)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>What would you like to see improve?
+          <span class="clue">(Ceck all that apply)</span>
+        </p>
+        <label>
+          <input name="prefer" value="dialogue" type="checkbox" class="input-checkbox">Dialogue
+        </label>
+        <label>
+          <input name="prefer" value="image" type="checkbox" class="input-checkbox">Image Quality
+          </label>
+          <label>
+            <input name="prefer" value="audio" type="checkbox" class="input-checkbox">Audio
+          </label>
+          <label>
+            <input name="prefer" value="story" type="checkbox" class="input-checkbox">Storyline
+          </label>
+        </div>
+        <div  class="form-group">
+          <p>Lastly, tell us about your favorite scene!</p>
+            <textarea id="discussion" class="input-textarea" name="scene" placeholder="Enter your discussion here..."></textarea>
+        </div>
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+            <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div class="form-group">
+          <button id="submit" type="submit" class="submit-button" fdprocessedid="vmdlc"> Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
